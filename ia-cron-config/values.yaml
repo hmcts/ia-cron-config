@@ -51,6 +51,7 @@ job:
     HMC_HEARINGS_TOPIC_SUBSCRIPTION_NAME: "hmc-ia-subs-to-cft-{{ .Values.global.environment }}"
     HMC_HEARINGS_LISTENING_ENABLED: false
     HMC_HEARINGS_TOPIC_POLICY_NAME: SendAndListenSharedAccessKey
+    LOCATION_REF_DATA_URL: "http://rd-location-ref-api-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal"
     TASK_NAME: UnNotifiedHearingsProcessor
   schedule: "* * 31 2 *"
   concurrencyPolicy: Forbid
