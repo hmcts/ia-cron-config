@@ -9,4 +9,4 @@ maintainers:
 dependencies:
   - name: job
     version: 1.1.5
-    repository: https://hmctspublic.azurecr.io/helm/v1/repo/
+    repository: 'oci://hmctsprod.azurecr.io/helm'
