@@ -21,9 +21,10 @@ jobs:
     steps:
       - template: steps/charts/validate.yaml@cnp-azuredevops-libraries
         parameters:
+          chartName: ia-cron-config
           chartReleaseName: ia-cron-config-ci-test
           chartNamespace: chart-tests
-          chartPath: ./ia-cron-config/
+          
 
   - job: Release
     # Make sure we have a tag to run this job.
