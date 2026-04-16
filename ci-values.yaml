@@ -3,7 +3,6 @@ job:
   aadIdentityName: ia
   keyVaults:
     ia:
-      resourceGroup: ia
       secrets:
         - name: docmosis-enabled
           alias: IA_DOCMOSIS_ENABLED
