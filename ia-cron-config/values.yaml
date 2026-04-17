@@ -1,5 +1,5 @@
 job:
-  image: 'hmctspublic.azurecr.io/ia/hearings-api:latest'
+  image: 'hmctsprod.azurecr.io/ia/hearings-api:latest'
   aadIdentityName: ia
   keyVaults:
     ia:
