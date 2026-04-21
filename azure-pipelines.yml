@@ -44,3 +44,5 @@ jobs:
           chartName: ia-cron-config
           chartReleaseName: ia-cron-config
           chartNamespace: chart-tests
+          aksCluster: cft-preview-00-aks
+          aksResourceGroup: cft-preview-00-rg
